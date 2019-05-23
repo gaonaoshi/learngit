@@ -1,0 +1,23 @@
+INFO: [HLS 200-10] Running 'F:/SoftwareInstallation/Xilinx/Vivado_HLS/2017.2/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'asus' on host 'jbgao' (Windows NT_amd64 version 6.2) on Thu May 03 14:55:08 +0800 2018
+INFO: [HLS 200-10] In directory 'E:/ZYBO'
+INFO: [HLS 200-10] Opening project 'E:/ZYBO/lstm_ip_gao'.
+INFO: [HLS 200-10] Opening solution 'E:/ZYBO/lstm_ip_gao/test_1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z010clg400-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-104] Cannot find C test bench. Please specify test bench files using 'add_files -tb'.
+ERROR: [SIM 211-100] CSim failed with errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+4
+    while executing
+"source E:/ZYBO/lstm_ip_gao/test_1/csim.tcl"
+    invoked from within
+"hls::main E:/ZYBO/lstm_ip_gao/test_1/csim.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"
